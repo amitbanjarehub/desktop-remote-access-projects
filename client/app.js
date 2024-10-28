@@ -3,7 +3,9 @@ const { v4: uuidv4 } = require('uuid');
 const screenshot = require('screenshot-desktop');
 var robot = require("robotjs");
 
-var socket = require('socket.io-client')('http://192.168.0.101:5000');
+// var socket = require('socket.io-client')('http://192.168.29.63:5000');
+// var socket = require('socket.io-client')('http://localhost:5000');
+var socket = require('socket.io-client')('https://d0d2-2405-201-3017-90a1-5df6-8bd2-c2c-3beb.ngrok-free.app');
 var interval;
 
 function createWindow () {
